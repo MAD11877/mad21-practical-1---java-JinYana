@@ -13,14 +13,14 @@ public class Question5 {
      */
 
     Scanner in = new Scanner(System.in);
-    System.out.println("Enter Number");
+    
     int number = in.nextInt();
     int mode = 0;
     int count = 0;
     int[] data = new int[number];
 
     for (int i = 0; i < number - 1; i++) {
-      System.out.println("Enter integers");
+      
       data[i] = in.nextInt();
 
     }
