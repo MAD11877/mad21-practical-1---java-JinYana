@@ -16,6 +16,6 @@ public class Question3
     int number = in.nextInt();
 
     int result = number * number;
-    System.out.println("The result is: " + result);
+    System.out.println(result);
   }
 }
